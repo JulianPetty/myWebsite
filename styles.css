@@ -1,0 +1,49 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #D0CFEC;
+}
+
+h1 {
+    color: #C6AE82;
+}
+/*navigation bar styling*/
+.topnav {
+	background-color: #6A8E7F;
+	border-radius: 8px;
+	padding: 10px;
+	text-align: center;
+}
+
+/*nav link styling*/
+.topnav a {
+	color: #C6AE82;
+	text-align: center;
+	padding: 14px 16px;	
+	text-decoration: none;
+	font-size: 27px;
+}
+
+/*Changes the color when mouse hovers over it using the :hover selector*/
+.topnav a:hover {
+  	background-color: #C6AE82;
+ 	 color: #6A8E7F;
+	 border-radius: 8px;
+}
+
+.container {
+    margin: 5% 20% 5% 20%;
+    background-color: #6A8E7F;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.container img {
+    max-width: 80%;
+    padding: 2rem;
+}
+
+.container p {
+    color: #EDC7CF;
+    font-style: italic;
+}
